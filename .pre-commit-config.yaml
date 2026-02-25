@@ -1,7 +1,10 @@
 repos:
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.3.0 # Usa la versión más reciente
+    rev: v0.3.0
     hooks:
       - id: ruff
+        # Esta línea es la clave para que entre a los .ipynb
+        types_or: [python, pyi, jupyter]
         args: [--fix]
       - id: ruff-format
+        types_or: [python, pyi, jupyter]
