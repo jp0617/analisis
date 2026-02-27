@@ -1,6 +1,9 @@
 # Instalacion de dependencias
 pip install -r requirements.txt
 
+# URL de la fuente de dato
+https://www.kaggle.com/datasets/armin2080/premier-league-matches-dataset-2021-to-2025?resource=download
+
 # Información del dataset
 This dataset contains detailed information on all Premier League matches played between the 2021 and 2025 seasons. It includes match dates, times, venues, results, goals scored (gf), goals against (ga), expected goals (xg), possession percentages, attendance figures, team formations, referees, and other relevant statistics. This data can be used for analysis, modeling predictions, or exploring trends in Premier League football.
 
