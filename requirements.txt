@@ -2,3 +2,5 @@ pandas
 matplotlib
 pre-commit
 seaborn 
+plotly
+nbformat
